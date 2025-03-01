@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import vector from '@/images/vector.png';
 import { SlArrowDown } from 'react-icons/sl';
 import Link from 'next/link';
 import Button from '@/components/Button';
@@ -19,10 +18,12 @@ const Header = () => {
     {
       title: 'Etkinlikler',
       url: '/etkinlikler',
+      children: [],
     },
     {
       title: 'Eğitimler',
       url: '/eğitimler',
+      children: [],
     },
     {
       title: 'İlgi Alanlarımız',
@@ -36,14 +37,15 @@ const Header = () => {
     {
       title: 'İletişim',
       url: '/iletişim',
+      children: [],
     },
   ];
 
   return (
-    <div className="bg-black/45 w-full">
+    <header className="bg-black/45 w-full">
       <div className="container mx-auto flex justify-between text-white md:h-[88px]  items-center">
         <div>
-          <Image src={vector} width={108} height={44} alt="logo" />
+          <Image src="/images/vector.png" width={108} height={44} alt="logo" />
         </div>
         <div className="flex gap-7">
           {categories.map((category, index) => (
@@ -62,7 +64,7 @@ const Header = () => {
           <Button size="medium" color="white" title="Giriş Yap" />
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
