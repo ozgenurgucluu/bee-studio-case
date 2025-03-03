@@ -1,0 +1,268 @@
+[
+  {
+    "date": "2025-02-05",
+    "hour": "14:00",
+    "title": "Yeni Yıl Kahvaltısı",
+    "bgColor": "#F3E5F5",
+    "textColor": "#6A1B9A"
+  },
+  {
+    "date": "2025-02-10",
+    "hour": "19:30",
+    "title": "Kış Film Maratonu",
+    "bgColor": "#FFECB3",
+    "textColor": "#EF6C00"
+  },
+  {
+    "date": "2025-02-15",
+    "hour": "18:00",
+    "title": "Motivasyon Konuşmaları",
+    "bgColor": "#FFFDE7",
+    "textColor": "#F9A825"
+  },
+  {
+    "date": "2025-02-20",
+    "hour": "12:00",
+    "title": "Girişimcilik Atölyesi",
+    "bgColor": "#E3F2FD",
+    "textColor": "#1565C0"
+  },
+  {
+    "date": "2025-02-25",
+    "hour": "20:30",
+    "title": "Kış Festivali Konseri",
+    "bgColor": "#E3F2FD",
+    "textColor": "#1565C0"
+  },
+  {
+    "date": "2025-03-01",
+    "hour": "14:00",
+    "title": "Doğa Yürüyüşü",
+    "bgColor": "#F3E5F5",
+    "textColor": "#6A1B9A"
+  },
+  {
+    "date": "2025-03-01",
+    "hour": "19:00",
+    "title": "Ali'nin Doğum Günü",
+    "bgColor": "#E3F2FD",
+    "textColor": "#1565C0"
+  },
+  {
+    "date": "2025-03-02",
+    "hour": "16:30",
+    "title": "Pazar Kahve Buluşması",
+    "bgColor": "#E0F7FA",
+    "textColor": "#00838F"
+  },
+  {
+    "date": "2025-03-02",
+    "hour": "20:00",
+    "title": "Film Gecesi: Klasik Filmler",
+    "bgColor": "#F3E5F5",
+    "textColor": "#6A1B9A"
+  },
+  {
+    "date": "2025-03-03",
+    "hour": "18:00",
+    "title": "Yeni Yıl Hedefleri Çalıştayı",
+    "bgColor": "#F3E5F5",
+    "textColor": "#6A1B9A"
+  },
+  {
+    "date": "2025-03-04",
+    "hour": "17:30",
+    "title": "Yoga ve Meditasyon Seansı",
+    "bgColor": "#F3E5F5",
+    "textColor": "#6A1B9A"
+  },
+  {
+    "date": "2025-03-05",
+    "hour": "19:30",
+    "title": "Kitap Kulübü Buluşması",
+    "bgColor": "#E8F5E9",
+    "textColor": "#2E7D32"
+  },
+  {
+    "date": "2025-03-06",
+    "hour": "12:00",
+    "title": "İş Yemekleri Buluşması",
+    "bgColor": "#FFEBEE",
+    "textColor": "#C62828"
+  },
+  {
+    "date": "2025-03-07",
+    "hour": "21:00",
+    "title": "Canlı Müzik Akşamı",
+    "bgColor": "#FFFDE7",
+    "textColor": "#F9A825"
+  },
+  {
+    "date": "2025-03-08",
+    "hour": "10:00",
+    "title": "Şehir Dışı Gezi",
+    "bgColor": "#FFECB3",
+    "textColor": "#EF6C00"
+  },
+  {
+    "date": "2025-03-08",
+    "hour": "20:00",
+    "title": "Oyun Gecesi",
+    "bgColor": "#FFFDE7",
+    "textColor": "#F9A825"
+  },
+  {
+    "date": "2025-03-09",
+    "hour": "15:00",
+    "title": "Sanat Atölyesi",
+    "bgColor": "#FFEBEE",
+    "textColor": "#C62828"
+  },
+  {
+    "date": "2025-03-09",
+    "hour": "19:00",
+    "title": "Kampüs Buluşması",
+    "bgColor": "#FFEBEE",
+    "textColor": "#C62828"
+  },
+  {
+    "date": "2025-03-10",
+    "hour": "13:30",
+    "title": "Fotoğrafçılık Atölyesi",
+    "bgColor": "#FFECB3",
+    "textColor": "#EF6C00"
+  },
+  {
+    "date": "2025-03-10",
+    "hour": "18:00",
+    "title": "Yaratıcı Yazarlık Çalıştayı",
+    "bgColor": "#D7CCC8",
+    "textColor": "#4E342E"
+  },
+  {
+    "date": "2025-03-11",
+    "hour": "20:30",
+    "title": "Jazz Konseri",
+    "bgColor": "#D7CCC8",
+    "textColor": "#4E342E"
+  },
+  {
+    "date": "2025-03-12",
+    "hour": "16:00",
+    "title": "Girişimcilik Semineri",
+    "bgColor": "#D7CCC8",
+    "textColor": "#4E342E"
+  },
+  {
+    "date": "2025-03-12",
+    "hour": "19:30",
+    "title": "Bilim Kurgu Film Maratonu",
+    "bgColor": "#FFEBEE",
+    "textColor": "#C62828"
+  },
+  {
+    "date": "2025-03-13",
+    "hour": "18:30",
+    "title": "Sevgililer Günü Partisi",
+    "bgColor": "#FFECB3",
+    "textColor": "#EF6C00"
+  },
+  {
+    "date": "2025-03-14",
+    "hour": "20:00",
+    "title": "Romantik Akşam Yemeği",
+    "bgColor": "#F3E5F5",
+    "textColor": "#6A1B9A"
+  },
+  {
+    "date": "2025-03-15",
+    "hour": "10:00",
+    "title": "Sabah Kahvaltısı Buluşması",
+    "bgColor": "#E8F5E9",
+    "textColor": "#2E7D32"
+  },
+  {
+    "date": "2025-03-15",
+    "hour": "18:30",
+    "title": "Resim Sergisi Açılışı",
+    "bgColor": "#E3F2FD",
+    "textColor": "#1565C0"
+  },
+  {
+    "date": "2025-03-16",
+    "hour": "11:00",
+    "title": "Doğa Fotoğrafçılığı Gezisi",
+    "bgColor": "#FFEBEE",
+    "textColor": "#C62828"
+  },
+  {
+    "date": "2025-03-16",
+    "hour": "20:30",
+    "title": "Stand-up Gösterisi",
+    "bgColor": "#E3F2FD",
+    "textColor": "#1565C0"
+  },
+  {
+    "date": "2025-03-17",
+    "hour": "14:00",
+    "title": "Tiyatro Gösterimi",
+    "bgColor": "#D7CCC8",
+    "textColor": "#4E342E"
+  },
+  {
+    "date": "2025-03-17",
+    "hour": "19:00",
+    "title": "Spor ve Sağlık Sohbeti",
+    "bgColor": "#E0F7FA",
+    "textColor": "#00838F"
+  },
+  {
+    "date": "2025-03-18",
+    "hour": "12:00",
+    "title": "Gönüllü Çalışma Günü",
+    "bgColor": "#FFFDE7",
+    "textColor": "#F9A825"
+  },
+  {
+    "date": "2025-03-18",
+    "hour": "19:00",
+    "title": "Müzik Grubu Provası",
+    "bgColor": "#FFECB3",
+    "textColor": "#EF6C00"
+  },
+  {
+    "date": "2025-04-05",
+    "hour": "10:00",
+    "title": "İlkbahar Pikniği",
+    "bgColor": "#E3F2FD",
+    "textColor": "#1565C0"
+  },
+  {
+    "date": "2025-04-05",
+    "hour": "14:00",
+    "title": "Teknoloji Zirvesi",
+    "bgColor": "#FFECB3",
+    "textColor": "#EF6C00"
+  },
+  {
+    "date": "2025-04-05",
+    "hour": "18:30",
+    "title": "Müzik Atölyesi",
+    "bgColor": "#E0F7FA",
+    "textColor": "#00838F"
+  },
+  {
+    "date": "2025-04-05",
+    "hour": "20:00",
+    "title": "Bilim Sohbetleri",
+    "bgColor": "#FFEBEE",
+    "textColor": "#C62828"
+  },
+  {
+    "date": "2025-04-05",
+    "hour": "22:00",
+    "title": "Mart Ayı Karaoke Gecesi",
+    "bgColor": "#E3F2FD",
+    "textColor": "#1565C0"
+  }
+]

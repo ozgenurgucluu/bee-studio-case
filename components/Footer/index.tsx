@@ -57,7 +57,7 @@ const Footer = () => {
 
   return (
     <>
-      <Link href="/" className="flex justify-end p-5">
+      <Link href="/" className="flex justify-end p-5 mt-8">
         <Image
           src="/images/whatsapp.png"
           alt="whatsap"
