@@ -43,8 +43,8 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-black/45 w-full">
-      <div className="container mx-auto flex justify-between text-white p-5  items-center">
+    <header className="md:bg-black/55 bg-black/35 w-full">
+      <div className="container mx-auto flex justify-between text-white md:p-5 p-4 items-center">
         <Link href="/">
           <Image src="/images/vector.png" width={108} height={44} alt="logo" />
         </Link>
