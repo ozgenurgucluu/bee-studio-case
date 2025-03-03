@@ -7,40 +7,50 @@ const Footer = () => {
     {
       title: 'Kurumsal',
       links: [
-        'Biz Kimiz?',
-        'Başkanın Mesajı',
-        'Yönetim Kurulumuz',
-        'Temsilciliklerimiz',
+        { title: 'Biz Kimiz?', path: '/kurumsal/biz-kimiz' },
+        { title: 'Başkanın Mesajı', path: '/kurumsal/baskanin-mesaji' },
+        { title: 'Yönetim Kurulumuz', path: '/kurumsal/yonetim-kurulu' },
+        { title: 'Temsilciliklerimiz', path: '/kurumsal/temsilcilikler' },
       ],
     },
     {
       title: 'Etkinlikler',
-      links: ['Eğitim Takvimimiz'],
+      links: [
+        { title: 'Eğitim Takvimimiz', path: '/etkinlikler/egitim-takvimi' },
+      ],
     },
     {
       title: 'Eğitimler',
       links: [
-        'Fonsiyonel Eczacılık Eğitimi',
-        'Aromaterapi Akademisi',
-        ,
-        'Eğitim Programı',
+        {
+          title: 'Fonksiyonel Eczacılık Eğitimi',
+          path: '/egitimler/fonksiyonel-eczacilik',
+        },
+        {
+          title: 'Aromaterapi Akademisi',
+          path: '/egitimler/aromaterapi-akademisi',
+        },
+        { title: 'Eğitim Programı', path: '/egitimler/egitim-programi' },
       ],
     },
     {
       title: 'İlgi Alanlarımız',
       links: [
-        'Aromaterapi',
-        'Fitoterapi',
-        'Vitamin Gıda Takviyesi',
-        'Majistral',
+        { title: 'Aromaterapi', path: '/ilgi-alanlari/aromaterapi' },
+        { title: 'Fitoterapi', path: '/ilgi-alanlari/fitoterapi' },
+        {
+          title: 'Vitamin Gıda Takviyesi',
+          path: '/ilgi-alanlari/vitamin-gida-takviyesi',
+        },
+        { title: 'Majistral', path: '/ilgi-alanlari/majistral' },
       ],
     },
     {
       title: 'İletişim',
       links: [
-        'Viyana Caddesi 10/6 Merkez Yozgat',
-        '+90 533 090 93 29',
-        'danis@ecozder.org',
+        { title: 'Adres', path: '/iletisim#adres' },
+        { title: 'Telefon', path: '/iletisim#telefon' },
+        { title: 'E-posta', path: '/iletisim#email' },
       ],
     },
   ];
@@ -51,20 +61,19 @@ const Footer = () => {
         <div className="p-6">
           <Image src="/images/vector1.png" alt="logo" width={199} height={81} />
         </div>
-        <div className="mx-auto container flex-col md:flex-row flex gap-5 p-6 md:p-0 justify-between text-base">
+        <div className="mx-auto container flex-col md:flex-row flex gap-7 p-6 md:p-0 justify-between text-base">
           {footerData.map((data, index) => (
             <div key={index} className="flex flex-col">
               <h2>{data.title}</h2>
-
               {data.links.map((link, index) => (
-                <Link key={index} href="/" className="text-[#ACACAC]">
-                  {link}
+                <Link key={index} href={link.path} className="text-[#ACACAC]">
+                  {link.title}
                 </Link>
               ))}
             </div>
           ))}
         </div>
-        <span className="border-t border-[#42494C]"></span>
+        <span className="border-t border-[#42494C] hidden md:flex"></span>
         <div className="flex flex-col md:flex-row gap-5 items-center   md:justify-between">
           <div className="text-xs">
             © 2025 Eczacı Çözüm Derneği tüm hakları saklıdır.
@@ -88,27 +97,33 @@ const Footer = () => {
           </Link>
 
           <div className="flex gap-2 ">
-            <Image
-              src="/images/facebook.png"
-              alt="bee-studio"
-              width={44}
-              height={44}
-              className="align-bottom"
-            />
-            <Image
-              src="/images/x.png"
-              alt="bee-studio"
-              width={44}
-              height={44}
-              className="align-bottom"
-            />
-            <Image
-              src="/images/instagram.png"
-              alt="bee-studio"
-              width={44}
-              height={44}
-              className="align-bottom"
-            />
+            <Link href="/">
+              <Image
+                src="/images/facebook.png"
+                alt="bee-studio"
+                width={44}
+                height={44}
+                className="align-bottom"
+              />
+            </Link>
+            <Link href="/">
+              <Image
+                src="/images/x.png"
+                alt="bee-studio"
+                width={44}
+                height={44}
+                className="align-bottom"
+              />
+            </Link>
+            <Link href="/">
+              <Image
+                src="/images/instagram.png"
+                alt="bee-studio"
+                width={44}
+                height={44}
+                className="align-bottom"
+              />
+            </Link>
           </div>
         </div>
       </div>
