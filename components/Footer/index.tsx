@@ -56,78 +56,94 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[url('/images/footer.png')] bg-cover bg-center">
-      <div className="flex flex-col gap-10 p-10 text-white bg-cover bg-black/70">
-        <div className="p-6">
-          <Image src="/images/vector1.png" alt="logo" width={199} height={81} />
-        </div>
-        <div className="mx-auto container flex-col md:flex-row flex gap-7 p-6 md:p-0 justify-between text-base">
-          {footerData.map((data, index) => (
-            <div key={index} className="flex flex-col">
-              <h2>{data.title}</h2>
-              {data.links.map((link, index) => (
-                <Link key={index} href={link.path} className="text-[#ACACAC]">
-                  {link.title}
-                </Link>
-              ))}
-            </div>
-          ))}
-        </div>
-        <span className="border-t border-[#42494C] hidden md:flex"></span>
-        <div className="flex flex-col md:flex-row gap-5 items-center   md:justify-between">
-          <div className="text-xs">
-            © 2025 Eczacı Çözüm Derneği tüm hakları saklıdır.
-          </div>
-
-          <Link
-            className="text-xs  flex gap-1 "
-            target="_blank"
-            href="https://bee.studio/tr"
-          >
+    <>
+      <Link href="/" className="flex justify-end p-5">
+        <Image
+          src="/images/whatsapp.png"
+          alt="whatsap"
+          width={190}
+          height={66}
+          className="align-bottom"
+        />
+      </Link>
+      <footer className="bg-[url('/images/footer.png')] bg-cover bg-center">
+        <div className="flex flex-col gap-10 p-10 text-white bg-cover bg-black/70">
+          <div className="p-6">
             <Image
-              src="/images/bee-studio.png"
-              alt="bee-studio"
-              height={20}
-              width={58}
+              src="/images/vector1.png"
+              alt="logo"
+              width={199}
+              height={81}
             />
-            <span className="flex -mb-0.5 items-end">
-              {' '}
-              tarafından geliştirilmiştir.
-            </span>
-          </Link>
+          </div>
+          <div className="mx-auto container flex-col md:flex-row flex gap-7 p-6 md:p-0 justify-between text-base">
+            {footerData.map((data, index) => (
+              <div key={index} className="flex flex-col">
+                <h2>{data.title}</h2>
+                {data.links.map((link, index) => (
+                  <Link key={index} href={link.path} className="text-[#ACACAC]">
+                    {link.title}
+                  </Link>
+                ))}
+              </div>
+            ))}
+          </div>
+          <span className="border-t border-[#42494C] hidden md:flex"></span>
+          <div className="flex flex-col md:flex-row gap-5 items-center   md:justify-between">
+            <div className="text-xs">
+              © 2025 Eczacı Çözüm Derneği tüm hakları saklıdır.
+            </div>
 
-          <div className="flex gap-2 ">
-            <Link href="/">
+            <Link
+              className="text-xs  flex gap-1 "
+              target="_blank"
+              href="https://bee.studio/tr"
+            >
               <Image
-                src="/images/facebook.png"
+                src="/images/bee-studio.png"
                 alt="bee-studio"
-                width={44}
-                height={44}
-                className="align-bottom"
+                height={20}
+                width={58}
               />
+              <span className="flex -mb-0.5 items-end">
+                {' '}
+                tarafından geliştirilmiştir.
+              </span>
             </Link>
-            <Link href="/">
-              <Image
-                src="/images/x.png"
-                alt="bee-studio"
-                width={44}
-                height={44}
-                className="align-bottom"
-              />
-            </Link>
-            <Link href="/">
-              <Image
-                src="/images/instagram.png"
-                alt="bee-studio"
-                width={44}
-                height={44}
-                className="align-bottom"
-              />
-            </Link>
+
+            <div className="flex gap-2 ">
+              <Link href="/">
+                <Image
+                  src="/images/facebook.png"
+                  alt="facebook"
+                  width={44}
+                  height={44}
+                  className="align-bottom"
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  src="/images/x.png"
+                  alt="x"
+                  width={44}
+                  height={44}
+                  className="align-bottom"
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  src="/images/instagram.png"
+                  alt="instagram"
+                  width={44}
+                  height={44}
+                  className="align-bottom"
+                />
+              </Link>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </>
   );
 };
 
