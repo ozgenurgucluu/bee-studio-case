@@ -81,7 +81,7 @@ const Footer = () => {
               height={20}
               width={58}
             />
-            <span className=" flex -mb-0.5 items-end">
+            <span className="flex -mb-0.5 items-end">
               {' '}
               tarafından geliştirilmiştir.
             </span>
