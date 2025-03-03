@@ -3,8 +3,6 @@ import Image from 'next/image';
 import { SlArrowDown } from 'react-icons/sl';
 import Link from 'next/link';
 import Button from '@/components/Button';
-import { useRef } from 'react';
-import { useState } from 'react';
 import MobilMenu from '../MobilMenu';
 
 const Header = () => {
@@ -47,9 +45,9 @@ const Header = () => {
   return (
     <header className="bg-black/45 w-full">
       <div className="container mx-auto flex justify-between text-white p-5  items-center">
-        <div>
+        <Link href="/">
           <Image src="/images/vector.png" width={108} height={44} alt="logo" />
-        </div>
+        </Link>
         <div className="gap-7 hidden md:flex">
           {categories.map((category, index) => (
             <div
