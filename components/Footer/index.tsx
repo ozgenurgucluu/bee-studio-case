@@ -69,15 +69,16 @@ const Footer = () => {
 
   return (
     <>
-      <Link href="/" className="flex justify-end p-5 mt-8">
-        <Image
-          src="/images/whatsapp.png"
-          alt="whatsap"
-          width={190}
-          height={66}
-          className="align-bottom"
-        />
-      </Link>
+      <div className="container mx-auto flex justify-end mt-16   mb-8">
+        <Link href="/">
+          <Image
+            src="/images/whatsapp.png"
+            alt="whatsap"
+            width={190}
+            height={66}
+          />
+        </Link>
+      </div>
       <footer className="bg-[url('/images/footer.png')] bg-cover bg-center">
         <div className="flex flex-col gap-10 p-10 text-white bg-cover bg-black/70">
           <div className="p-6">
@@ -92,8 +93,12 @@ const Footer = () => {
             {footerData.map((data, index) => (
               <div key={index} className="flex flex-col">
                 <h2>{data.title}</h2>
-                {data.links.map((link, index) => (
-                  <Link key={index} href={link.path} className="text-[#ACACAC]">
+                {data.links.map((link, index2) => (
+                  <Link
+                    key={index2}
+                    href={link.path}
+                    className="text-[#ACACAC]"
+                  >
                     {link.title}
                   </Link>
                 ))}
@@ -118,7 +123,6 @@ const Footer = () => {
                 width={58}
               />
               <span className="flex -mb-0.5 items-end">
-                {' '}
                 tarafından geliştirilmiştir.
               </span>
             </Link>
@@ -126,11 +130,12 @@ const Footer = () => {
             <div className="flex gap-2">
               {socialMediaIcon.map((icon, index) => (
                 <Link
+                  key={index}
                   target="_blank"
                   href={icon.link}
                   className="bg-white text-black rounded-full w-12 h-12 flex justify-center items-center"
                 >
-                  <span key={index}> {icon.icon}</span>
+                  <span> {icon.icon}</span>
                 </Link>
               ))}
             </div>
