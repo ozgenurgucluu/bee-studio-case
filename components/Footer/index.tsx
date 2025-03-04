@@ -1,6 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { RiFacebookLine } from 'react-icons/ri';
+import { FaXTwitter } from 'react-icons/fa6';
+import { FaInstagram } from 'react-icons/fa6';
 
 const Footer = () => {
   const footerData = [
@@ -52,6 +55,15 @@ const Footer = () => {
         { title: 'Telefon', path: '/iletisim#telefon' },
         { title: 'E-posta', path: '/iletisim#email' },
       ],
+    },
+  ];
+
+  const socialMediaIcon = [
+    { icon: <RiFacebookLine size={24} />, link: '' },
+    { icon: <FaXTwitter size={24} />, link: 'https://x.com/beestudioinc' },
+    {
+      icon: <FaInstagram size={24} />,
+      link: 'https://www.instagram.com/beestudioinc',
     },
   ];
 
@@ -111,34 +123,16 @@ const Footer = () => {
               </span>
             </Link>
 
-            <div className="flex gap-2 ">
-              <Link href="/">
-                <Image
-                  src="/images/facebook.png"
-                  alt="facebook"
-                  width={44}
-                  height={44}
-                  className="align-bottom"
-                />
-              </Link>
-              <Link href="/">
-                <Image
-                  src="/images/x.png"
-                  alt="x"
-                  width={44}
-                  height={44}
-                  className="align-bottom"
-                />
-              </Link>
-              <Link href="/">
-                <Image
-                  src="/images/instagram.png"
-                  alt="instagram"
-                  width={44}
-                  height={44}
-                  className="align-bottom"
-                />
-              </Link>
+            <div className="flex gap-2">
+              {socialMediaIcon.map((icon, index) => (
+                <Link
+                  target="_blank"
+                  href={icon.link}
+                  className="bg-white text-black rounded-full w-12 h-12 flex justify-center items-center"
+                >
+                  <span key={index}> {icon.icon}</span>
+                </Link>
+              ))}
             </div>
           </div>
         </div>
